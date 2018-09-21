@@ -1,6 +1,6 @@
 package com.example.android.registration;
 
-//COde for login page
+//Code for login page
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
