@@ -4,6 +4,11 @@ public class WorkshopItem {
     private String title;
     private String description;
 
+    public WorkshopItem(String title, String description) {
+        this.title = title;
+        this.description = description;
+    }
+
     public String getTitle() {
         return title;
     }
