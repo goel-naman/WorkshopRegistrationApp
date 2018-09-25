@@ -11,16 +11,24 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        addFragment();
+        openLoginFragment();
     }
 
-    private void addFragment() {
+    //open Login form
+    private void openLoginFragment() {
         Fragment fragment;
         fragment = new LoginFragment();
 
         getSupportFragmentManager().beginTransaction().add(R.id.fragments,fragment,"NoFragment").addToBackStack(null)
                 .commit();
     }
+    //open workshop list
+    private void openWorkshpFragment(){
+        Fragment fragment;
+        fragment = new LoginFragment();
 
+        getSupportFragmentManager().beginTransaction().add(R.id.fragments,fragment,"NoFragment").addToBackStack(null)
+                .commit();
+    }
 
 }
