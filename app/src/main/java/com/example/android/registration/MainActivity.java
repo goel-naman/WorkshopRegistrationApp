@@ -18,10 +18,13 @@ public class MainActivity extends AppCompatActivity implements FragmentActionLis
     //open  fragment
     private void openFragment(String string) {
         Fragment fragment;
-        switch (string){
+        switch (string)
+        {
             case "workshop":fragment = new WorkshopFragment();
                 break;
             case "login":fragment=new LoginFragment();
+                break;
+            case "signup":fragment=new SignUpFragment();
                 break;
             default :
                 return;
