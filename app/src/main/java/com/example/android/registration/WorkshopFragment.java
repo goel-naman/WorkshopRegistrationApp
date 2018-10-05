@@ -27,7 +27,7 @@ public class WorkshopFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         rootView = inflater.inflate(R.layout.fragment_workshop,container,false);
-        helper = new WorkshopDatabaseHelper((FragmentActivity) context) ;
+        helper = new WorkshopDatabaseHelper(context) ;
         recyclerView = rootView.findViewById(R.id.workshop_list);
         recyclerView.hasFixedSize();
         RecyclerView.LayoutManager layoutManager= new LinearLayoutManager(context);

@@ -19,7 +19,6 @@
     <string name="description">Description</string>
     <string name="not_a_user_sign_up">Not a User? | Sign up</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="email_address">Email Address</string>
     <string name="name">Name</string>
@@ -27,6 +26,11 @@
     <string name="password">Password</string>
     <string name="confirm_password">Confirm Password</string>
     <string name="sign_up">Sign up</string>
+    <string name="hello">Hello text</string>
+    <string name="no_apply">There is no workshop applied</string>
+    <string name="coordinator">Coordinator</string>
+    <string name="summary">Summary</string>
+    <string name="details">details</string>
 
 
 </resources>
